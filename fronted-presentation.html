@@ -130,7 +130,7 @@
             will-change: transform, opacity;
         }
 
-        #main-nav.main-nav-hidden {
+        #main-nav.nav-hidden {
             transform: translateY(-100%);
             opacity: 0;
             pointer-events: none;
@@ -156,7 +156,7 @@
 
     <!-- Hero Section -->
     <!-- Frontend Architecture Overview -->
-    <section class="section-padding bg-gradient-to-br from-gray-900 via-indigo-900 to-gray-900">
+    <section class="section-padding mt-10 bg-gradient-to-br from-gray-900 via-indigo-900 to-gray-900">
         <div class="container mx-auto px-6">
             <h2 class="text-4xl font-bold text-center mb-4 frontend-text" data-aos="fade-up">Frontend Architecture Overview</h2>
             <div class="w-32 h-1.5 bg-gradient-to-r from-blue-400 via-purple-400 to-cyan-400 mx-auto mb-12 rounded-full" data-aos="fade-up" data-aos-delay="100"></div>
@@ -4141,12 +4141,12 @@
                     
                     if (isTabNavSticky) {
                         // Tab nav is sticky - immediately hide main nav and move tab nav to top
-                        mainNav.classList.add('main-nav-hidden');
+                        mainNav.classList.add('nav-hidden');
                         tabNavigation.classList.add('nav-active');
                         tabNavigation.style.top = '0px';
                     } else if (scrollTop < tabNavInitialTop - mainNavHeight - 20) {
                         // Scrolled back up - show main nav and restore tab nav position
-                        mainNav.classList.remove('main-nav-hidden');
+                        mainNav.classList.remove('nav-hidden');
                         tabNavigation.classList.remove('nav-active');
                         tabNavigation.style.top = '80px';
                     }
