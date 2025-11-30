@@ -19,7 +19,7 @@ Disallow: /.github/
 Allow: /index.html
 Allow: /presentation.html
 Allow: /backend-presentation.html
-Allow: /fronted-presentation.html
+Allow: /frontend-presentation.html
 
 # Allow public assets
 Allow: /*.jpg$

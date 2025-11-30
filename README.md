@@ -686,7 +686,7 @@ AI Services, Security, Deployment
 
 React/Next.js/Django/Flutter
 
-[![View](https://img.shields.io/badge/View-Frontend-purple?style=for-the-badge)](https://mrdasdeveloper.github.io/fullstack/fronted-presentation.html)
+[![View](https://img.shields.io/badge/View-Frontend-purple?style=for-the-badge)](https://mrdasdeveloper.github.io/fullstack/frontend-presentation.html)
 
 </td>
 </tr>
